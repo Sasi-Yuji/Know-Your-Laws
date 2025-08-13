@@ -1,0 +1,37 @@
+[
+  {
+    "id": 1,
+    "title": "XYZ Bank Scam",
+    "description": "Massive ₹3000 crore banking scam under investigation by CBI.",
+    "status": "Ongoing",
+    "shortUpdate": "Hearing scheduled in Supreme Court next week."
+  },
+  {
+    "id": 2,
+    "title": "Celebrity Hit-and-Run Case",
+    "description": "High-profile case involving a well-known actor's car accident.",
+    "status": "Solved",
+    "shortUpdate": "Accused found guilty and sentenced to 5 years in prison."
+  },
+  {
+    "id": 3,
+    "title": "Political Bribery Scandal",
+    "description": "Allegations of ₹200 crore bribe during state elections.",
+    "status": "Ongoing",
+    "shortUpdate": "ED submitted chargesheet to special court."
+  },
+  {
+    "id": 4,
+    "title": "Hospital Negligence Case",
+    "description": "Patient death due to lack of oxygen supply in ICU.",
+    "status": "Ongoing",
+    "shortUpdate": "Case under National Consumer Disputes Commission review."
+  },
+  {
+    "id": 5,
+    "title": "IT Company Data Breach",
+    "description": "Leak of personal data of over 2 million users.",
+    "status": "Solved",
+    "shortUpdate": "Company fined ₹50 lakh for negligence."
+  }
+]

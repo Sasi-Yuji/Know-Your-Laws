@@ -1,0 +1,103 @@
+.viral-preview {
+  width: 100%;
+  background: linear-gradient(to right, #f5f7fa, #c3cfe2);
+  padding: 3.5rem 2rem;
+  font-family: 'Segoe UI', sans-serif;
+  text-align: center;
+}
+
+.viral-preview h2 {
+  font-size: 2.4rem;
+  font-weight: 800;
+  color: #2c3e50;
+  margin-bottom: 2rem;
+  position: relative;
+}
+
+.viral-preview h2::after {
+  content: "";
+  display: block;
+  width: 80px;
+  height: 4px;
+  background: #0d6efd;
+  margin: 8px auto 0;
+  border-radius: 2px;
+}
+
+.viral-cases-container {
+  max-width: 900px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+}
+
+.viral-card {
+  background: white;
+  border-radius: 12px;
+  padding: 2rem;
+  box-shadow: 0 3px 10px rgba(0,0,0,0.06);
+  transition: all 0.4s ease;
+  text-align: center;
+}
+
+.viral-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.12);
+}
+
+.viral-card h3 {
+  font-size: 1.3rem;
+  font-weight: 700;
+  color: #0d47a1;
+  margin-bottom: 0.6rem;
+  line-height: 1.4;
+}
+
+.viral-card p {
+  font-size: 0.95rem;
+  color: #555;
+  margin-bottom: 1rem;
+}
+
+.read-more,
+.view-all-btn {
+  display: inline-block;
+  padding: 10px 20px;
+  border-radius: 6px;
+  font-size: 0.9rem;
+  font-weight: 500;
+  text-decoration: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.read-more {
+  background: #0d6efd;
+  color: white;
+  margin-right: 10px;
+}
+
+.read-more:hover {
+  background-color: #0b5ed7;
+}
+
+.view-all-btn {
+  background: #198754;
+  color: white;
+  margin-top: 10px;
+  border: none;
+}
+
+.view-all-btn:hover {
+  background: #146c43;
+  transform: scale(1.05);
+}
+
+.allview{
+  background: #198754;
+  color: white;
+  margin-top: 15px;
+  border: none;
+  height: 40px;
+  border-radius: 3px;
+}

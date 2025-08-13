@@ -1,0 +1,453 @@
+:root {
+  --primary-color: #0b2d50;
+  --light-color: #f9f9f9;
+  --text-dark: #333;
+  --text-medium: #222;
+  --bg-soft: #eef2f3;
+}
+
+.hero-section {
+  background: url('../assets/court-bg.png') center/cover no-repeat;
+  width: 100%;
+  height: 50vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.hero-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+  width: 90%;
+  max-width: 1400px;
+}
+
+.hero-left {
+  flex: 1 1 65%;
+  color: var(--primary-color);
+}
+
+.hero-left h1 {
+  font-size: 5rem;
+  font-weight: 900;
+  margin-bottom: 20px;
+  white-space: nowrap;
+}
+
+.hero-left p {
+  font-size: 1.5rem;
+  margin-bottom: 25px;
+  color: var(--text-dark);
+}
+
+.hero-buttons {
+  display: flex;
+  gap: 15px;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+}
+
+.hero-buttons button {
+  white-space: nowrap;
+  padding: 12px 24px;
+  border-radius: 6px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.btn-primary {
+  background-color: var(--primary-color);
+  color: white;
+  border: none;
+}
+
+.btn-outline {
+  border: 2px solid var(--primary-color);
+  color: var(--primary-color);
+  background-color: transparent;
+}
+
+.btn-outline:hover {
+  background-color: var(--primary-color);
+  color: white;
+}
+
+.btn-primary:hover {
+  background-color: #083059;
+}
+
+.hero-right {
+  flex: 0 0 35%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.hero-right img {
+  height: 360px;
+  width: auto;
+  object-fit: contain;
+}
+
+@media (max-width: 1024px) {
+  .hero-section {
+    height: auto;
+    padding: 50px 0;
+  }
+
+  .hero-content {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .hero-left,
+  .hero-right {
+    flex: 0 0 100%;
+    justify-content: center;
+  }
+
+  .hero-left h1 {
+    font-size: 3rem;
+    white-space: normal;
+  }
+
+  .hero-right img {
+    height: 250px;
+    margin-top: 20px;
+  }
+
+  .hero-buttons {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+
+.mid-section {
+  padding: 100px 40px;
+  background: linear-gradient(to bottom right, var(--bg-soft), var(--light-color));
+  text-align: center;
+}
+
+.mid-section h2 {
+  font-size: 3rem;
+  color: var(--primary-color);
+  font-weight: 900;
+  margin-bottom: 60px;
+  letter-spacing: 1px;
+}
+
+.mid-cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 40px;
+  width: 100%;
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 0 40px;
+  box-sizing: border-box;
+}
+
+.mid-cards .card {
+  background: white;
+  padding: 30px 25px;
+  border-radius: 15px;
+  box-shadow: 0 12px 25px rgba(0, 0, 0, 0.1);
+  transition: transform 0.4s ease, box-shadow 0.4s ease;
+  position: relative;
+  overflow: hidden;
+  height: 100%;
+}
+
+.mid-cards .card::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  height: 5px;
+  background: var(--primary-color);
+  transition: height 0.3s ease;
+  z-index: 0;
+}
+
+.mid-cards .card:hover::after {
+  height: 100%;
+  opacity: 0.05;
+}
+
+.mid-cards .card p {
+  font-size: 1.2rem;
+  color: var(--text-medium);
+  font-weight: 500;
+  line-height: 1.7;
+  position: relative;
+  z-index: 1;
+}
+
+.mid-cards .card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.15);
+}
+
+@media (max-width: 1024px) {
+  .mid-cards {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 600px) {
+  .mid-cards {
+    grid-template-columns: 1fr;
+  }
+}
+
+.awareness-banner {
+  background: linear-gradient(to bottom right, #f0f4f8, #ffffff);
+  padding: 80px 40px;
+  text-align: center;
+  color: var(--primary-color);
+  transition: transform 0.5s ease-in-out;
+}
+
+.awareness-banner:hover {
+  transform: scale(1.02);
+}
+
+.awareness-banner h2 {
+  font-size: 2.5rem;
+  font-weight: 900;
+  margin-bottom: 20px;
+}
+
+.awareness-banner p {
+  font-size: 1.2rem;
+  line-height: 1.8;
+  color: var(--text-dark);
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.awareness-points-section {
+  background: #ffffff;
+  padding: 60px 40px;
+}
+
+.awareness-points {
+  list-style: none;
+  padding: 0;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 30px;
+  max-width: 1200px;
+}
+
+.awareness-points li {
+  background: #ecf0f3;
+  padding: 20px 25px;
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.07);
+  font-size: 1.1rem;
+  color: var(--primary-color);
+  transition: all 0.3s ease;
+}
+
+.awareness-points li:hover {
+  transform: translateY(-5px);
+  background: #f5faff;
+}
+
+.why-legal-awareness {
+  position: relative;
+  background: url('../assets/Legal11-bg.png') center/cover no-repeat;
+  padding: 100px 40px;
+  text-align: center;
+  overflow: hidden;
+  color: #0b2d50;
+}
+
+.why-legal-awareness::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: rgba(255, 255, 255, 0.6);
+  z-index: 0;
+}
+
+.why-legal-awareness h2 {
+  font-size: 3rem;
+  font-weight: 900;
+  color: #0b2d50;
+  margin-bottom: 30px;
+  position: relative;
+  z-index: 1;
+}
+
+.why-legal-awareness p {
+  font-size: 1.3rem;
+  color: #222222;
+  line-height: 1.8;
+  max-width: 900px;
+  margin: 0 auto;
+  position: relative;
+  z-index: 1;
+}
+
+.why-legal-awareness .highlight {
+  color: #5b1a18;
+  font-weight: bold;
+}
+
+.why-legal-awareness {
+  transition: transform 0.5s ease-in-out;
+}
+
+.why-legal-awareness:hover {
+  transform: scale(1.02);
+}
+
+@media (max-width: 1024px) {
+  .why-legal-awareness {
+    padding: 80px 30px;
+  }
+
+  .why-legal-awareness h2 {
+    font-size: 2.5rem;
+  }
+
+  .why-legal-awareness p {
+    font-size: 1.2rem;
+  }
+}
+
+@media (max-width: 600px) {
+  .why-legal-awareness {
+    padding: 60px 20px;
+  }
+
+  .why-legal-awareness h2 {
+    font-size: 2rem;
+  }
+
+  .why-legal-awareness p {
+    font-size: 1.1rem;
+  }
+}
+
+
+.awareness-image {
+  margin-top: 40px;
+}
+
+.awareness-image img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 12px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+}
+
+.law-awareness-section {
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  gap: 30px;
+  align-items: center;
+  padding: 60px 40px;
+  width: 100%;
+  background: linear-gradient(to right, #e3f2fd, #ffffff); 
+  box-sizing: border-box;
+}
+
+.justice-image {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  border-radius: 20px;
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.15);
+}
+
+.justice-image img {
+  width: 100%;
+  height: 320px;
+  object-fit: cover;
+  border-radius: 20px;
+}
+
+.image-overlay {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  padding: 10px 20px;
+  background: rgba(0, 43, 91, 0.7);
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  text-align: center;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+
+.law-card {
+  backdrop-filter: blur(8px);
+  background: rgba(255, 255, 255, 0.6);
+  border-radius: 16px;
+  padding: 20px 30px; 
+  box-shadow: 0 12px 25px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  transition: transform 0.3s ease;
+  height: auto;
+  min-height: 120px;       
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 100%;         
+}
+
+
+.law-card:hover {
+  transform: translateY(-5px);
+}
+
+.law-card h3 {
+  font-size: 20px;
+  color: #002b5b;
+  margin-bottom: 10px;
+}
+
+.law-card p {
+  font-size: 15px;
+  color: #333333;
+  line-height: 1.5;
+}
+
+.left-law-card {
+  position: relative;
+  left: -10px;
+}
+
+.right-law-card {
+  position: relative;
+  right: -10px;
+}
+
+@media screen and (max-width: 768px) {
+  .law-awareness-section {
+    grid-template-columns: 1fr;
+    gap: 20px;
+    padding: 30px 20px;
+  }
+
+  .justice-image img {
+    height: 250px;
+  }
+
+  .law-card {
+    padding: 25px 15px;
+  }
+
+  .image-overlay {
+    font-size: 16px;
+  }
+}

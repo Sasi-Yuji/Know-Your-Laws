@@ -1,0 +1,341 @@
+[
+  {
+    "id": 1,
+    "title": "Right to Information (RTI)",
+    "description": "You can request information from any government body under the RTI Act, 2005.",
+    "tag": "Citizen Rights",
+    "steps": [
+      "Identify the public authority holding the information.",
+      "Write an RTI application in simple language mentioning the details you need.",
+      "Pay the prescribed fee (usually ₹10).",
+      "Submit it via post, online RTI portal, or in person.",
+      "Receive a reply within 30 days."
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Right to Legal Aid",
+    "description": "Free legal assistance is available for economically weaker sections under Article 39A.",
+    "tag": "Legal Aid",
+    "steps": [
+      "Check if you qualify under the income or category criteria.",
+      "Approach the nearest Legal Services Authority office.",
+      "Submit identity and income proof.",
+      "A lawyer will be assigned to represent you for free."
+    ]
+  },
+  {
+    "id": 3,
+    "title": "Right to Education",
+    "description": "Children between 6–14 years have the right to free and compulsory education.",
+    "tag": "Education",
+    "steps": [
+      "Identify a government or government-aided school nearby.",
+      "Submit birth certificate or Aadhaar card for age proof.",
+      "Admission must be granted without charging any fees.",
+      "Ensure mid-day meals and textbooks are provided free."
+    ]
+  },
+  {
+    "id": 4,
+    "title": "Right to Vote",
+    "description": "Every citizen above 18 years has the right to vote without discrimination.",
+    "tag": "Election",
+    "steps": [
+      "Ensure your name is in the electoral roll.",
+      "Carry your Voter ID or approved ID proof to the polling booth.",
+      "Follow the voting instructions given by the election officer.",
+      "Cast your vote using the EVM or ballot paper."
+    ]
+  },
+  {
+    "id": 5,
+    "title": "Right to Consumer Protection",
+    "description": "You can file complaints against defective goods or poor services under the Consumer Protection Act.",
+    "tag": "Consumer Rights",
+    "steps": [
+      "Collect all purchase bills and proof of defective product/service.",
+      "Approach the seller or service provider first.",
+      "If unresolved, file a complaint with the Consumer Commission.",
+      "Submit evidence and details of your grievance."
+    ]
+  },
+  {
+    "id": 6,
+    "title": "Right to Equality",
+    "description": "No one can be discriminated against based on caste, religion, sex, or place of birth.",
+    "tag": "Fundamental Rights",
+    "steps": [
+      "Report any discrimination to the concerned authority.",
+      "Approach the Human Rights Commission if necessary.",
+      "Seek legal action through the courts for violation."
+    ]
+  },
+  {
+    "id": 7,
+    "title": "Right to Freedom of Speech",
+    "description": "You can express your opinions freely while respecting reasonable restrictions by law.",
+    "tag": "Fundamental Rights",
+    "steps": [
+      "Speak or write your views responsibly without hate speech.",
+      "Ensure you do not incite violence or defamation.",
+      "Use media, public forums, or social platforms legally."
+    ]
+  },
+  {
+    "id": 8,
+    "title": "Right to File FIR",
+    "description": "Police must register an FIR for any cognizable offence; refusal is illegal.",
+    "tag": "Police",
+    "steps": [
+      "Visit the nearest police station.",
+      "Provide details of the offence orally or in writing.",
+      "Request a copy of the FIR with an official stamp.",
+      "If refused, approach higher police authorities or file online."
+    ]
+  },
+  {
+    "id": 9,
+    "title": "Right to Legal Representation",
+    "description": "Every accused person has the right to consult and be represented by a lawyer.",
+    "tag": "Legal Aid",
+    "steps": [
+      "Contact a lawyer of your choice.",
+      "If unable to afford, request free legal aid from the Legal Services Authority.",
+      "Meet your lawyer regularly to discuss your case."
+    ]
+  },
+  {
+    "id": 10,
+    "title": "Right Against Illegal Detention",
+    "description": "You must be produced before a magistrate within 24 hours of arrest.",
+    "tag": "Police",
+    "steps": [
+      "Ask the police to inform your family immediately.",
+      "Demand to see the arrest warrant if applicable.",
+      "Request legal representation.",
+      "Insist on being presented before a magistrate within 24 hours."
+    ]
+  },
+  {
+    "id": 11,
+    "title": "Right to Privacy",
+    "description": "Your personal information is protected under the right to privacy as a fundamental right.",
+    "tag": "Privacy",
+    "steps": [
+      "Avoid sharing sensitive personal data unnecessarily.",
+      "Report misuse of your personal information to authorities.",
+      "Seek legal remedy if your privacy is violated."
+    ]
+  },
+  {
+    "id": 12,
+    "title": "Right to Health Services",
+    "description": "You can access basic health facilities and emergency treatment without advance payment.",
+    "tag": "Health",
+    "steps": [
+      "Visit the nearest government hospital or health centre.",
+      "In emergencies, request immediate treatment without payment.",
+      "Escalate to health authorities if denied services."
+    ]
+  },
+  {
+    "id": 13,
+    "title": "Right to Environment",
+    "description": "You have the right to a clean and healthy environment.",
+    "tag": "Environment",
+    "steps": [
+      "Report pollution or environmental hazards to local authorities.",
+      "Participate in community clean-up drives.",
+      "File complaints with the Pollution Control Board if needed."
+    ]
+  },
+  {
+    "id": 14,
+    "title": "Right to Work in a Safe Workplace",
+    "description": "Every worker has the right to a safe working environment under labour laws.",
+    "tag": "Labour Law",
+    "steps": [
+      "Report unsafe conditions to your employer.",
+      "Request safety equipment and training.",
+      "Complain to the labour department if unsafe conditions persist."
+    ]
+  },
+  {
+    "id": 15,
+    "title": "Right to Maternity Leave",
+    "description": "Female employees are entitled to 26 weeks of paid maternity leave.",
+    "tag": "Labour Law",
+    "steps": [
+      "Inform your employer in advance about your maternity leave.",
+      "Submit medical proof of pregnancy if required.",
+      "Ensure salary is paid during the leave period."
+    ]
+  },
+  {
+    "id": 16,
+    "title": "Right Against Child Labour",
+    "description": "Children under 14 cannot be employed in hazardous occupations.",
+    "tag": "Child Protection",
+    "steps": [
+      "Report instances of child labour to the police or labour department.",
+      "Call child helpline number 1098.",
+      "Assist in rehabilitating the child through NGOs."
+    ]
+  },
+  {
+    "id": 17,
+    "title": "Right to Minimum Wages",
+    "description": "Workers are entitled to be paid at least the state-notified minimum wage.",
+    "tag": "Labour Law",
+    "steps": [
+      "Know the current minimum wage rates for your state.",
+      "Keep proof of work hours and payment records.",
+      "Complain to the labour department if underpaid."
+    ]
+  },
+  {
+    "id": 18,
+    "title": "Right to Safe Food",
+    "description": "FSSAI ensures the safety and quality of food products sold in India.",
+    "tag": "Consumer Rights",
+    "steps": [
+      "Check FSSAI license number on packaged food.",
+      "Report unsafe food to the Food Safety Department.",
+      "Keep the sample for testing if needed."
+    ]
+  },
+  {
+    "id": 19,
+    "title": "Right to Safe Travel",
+    "description": "Passengers have the right to safety and compensation in case of accidents.",
+    "tag": "Transport",
+    "steps": [
+      "Report unsafe travel conditions to transport authorities.",
+      "In case of accidents, claim compensation through the carrier.",
+      "Keep tickets and travel proof for filing claims."
+    ]
+  },
+  {
+    "id": 20,
+    "title": "Right to Receive Wages on Time",
+    "description": "Employers must pay wages without unlawful deductions.",
+    "tag": "Labour Law",
+    "steps": [
+      "Track salary payment dates.",
+      "Raise the issue with HR or employer first.",
+      "Complain to the labour commissioner if unresolved."
+    ]
+  },
+  {
+    "id": 21,
+    "title": "Right to be Heard in Consumer Court",
+    "description": "You can approach the consumer court for grievances within 2 years of the incident.",
+    "tag": "Consumer Rights",
+    "steps": [
+      "File your complaint in the appropriate consumer forum.",
+      "Attach all proofs of purchase and grievance.",
+      "Attend hearings and present your case clearly."
+    ]
+  },
+  {
+    "id": 22,
+    "title": "Right to Free Police Help",
+    "description": "Police cannot refuse help in emergencies and cannot demand bribes.",
+    "tag": "Police",
+    "steps": [
+      "Call 100 or visit the nearest police station.",
+      "Record the incident details if possible.",
+      "Report refusal or misconduct to higher police authorities."
+    ]
+  },
+  {
+    "id": 23,
+    "title": "Right to Fair Trial",
+    "description": "Every person accused of a crime has the right to a fair and public trial.",
+    "tag": "Legal Aid",
+    "steps": [
+      "Ensure you have legal representation.",
+      "Attend all court hearings.",
+      "Present your evidence and witnesses.",
+      "Appeal the decision if necessary."
+    ]
+  },
+  {
+    "id": 24,
+    "title": "Right Against Dowry",
+    "description": "Demanding or giving dowry is a criminal offence.",
+    "tag": "Women Rights",
+    "steps": [
+      "Report dowry demands to the police immediately.",
+      "File a complaint under the Dowry Prohibition Act.",
+      "Seek protection through the women’s helpline."
+    ]
+  },
+  {
+    "id": 25,
+    "title": "Right to Protection from Domestic Violence",
+    "description": "The law protects against physical, emotional, and economic abuse.",
+    "tag": "Women Rights",
+    "steps": [
+      "Call the domestic violence helpline or 181.",
+      "File a complaint with the Protection Officer.",
+      "Seek shelter or legal protection orders if needed."
+    ]
+  },
+  {
+    "id": 26,
+    "title": "Right to Senior Citizen Protection",
+    "description": "Senior citizens can claim maintenance and protection under the Maintenance Act.",
+    "tag": "Senior Citizens",
+    "steps": [
+      "Approach the Maintenance Tribunal for claims.",
+      "Seek police help in case of abuse or harassment.",
+      "Contact senior citizen helplines for assistance."
+    ]
+  },
+  {
+    "id": 27,
+    "title": "Right to Free Education for Girls",
+    "description": "Many states offer free education schemes for girl children.",
+    "tag": "Education",
+    "steps": [
+      "Check eligibility criteria for state schemes.",
+      "Submit necessary documents to the school.",
+      "Claim free books, uniforms, and tuition benefits."
+    ]
+  },
+  {
+    "id": 28,
+    "title": "Right to Refund",
+    "description": "Consumers can claim a full refund for defective or undelivered goods.",
+    "tag": "Consumer Rights",
+    "steps": [
+      "Approach the seller with proof of purchase.",
+      "If refused, file a consumer complaint.",
+      "Submit product photographs and payment details."
+    ]
+  },
+  {
+    "id": 29,
+    "title": "Right to Lodge Online Complaints",
+    "description": "Citizens can file complaints via government portals like CPGRAMS.",
+    "tag": "Digital Rights",
+    "steps": [
+      "Visit the official grievance portal.",
+      "Fill in the complaint form with details.",
+      "Track the status of your complaint online."
+    ]
+  },
+  {
+    "id": 30,
+    "title": "Right to Emergency Services",
+    "description": "No hospital can refuse emergency treatment regardless of payment status.",
+    "tag": "Health",
+    "steps": [
+      "Call 108 or visit the nearest hospital.",
+      "Request immediate treatment in emergencies.",
+      "Report denial of treatment to health authorities."
+    ]
+  }
+]

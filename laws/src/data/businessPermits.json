@@ -1,0 +1,518 @@
+[
+  {
+    "_id": {
+      "$oid": "66bdb0000000000000000001"
+    },
+    "businessType": "Tea Stall",
+    "permits": [
+      {
+        "name": "FSSAI Basic Registration",
+        "estimatedCostINR": 100,
+        "validityYears": 1,
+        "whereToApply": "Apply online via the Food Safety and Standards Authority of India portal: https://foscos.fssai.gov.in"
+      },
+      {
+        "name": "Shop and Establishment License",
+        "estimatedCostINR": 1000,
+        "validityYears": 1,
+        "whereToApply": "Apply at the local Municipal Corporation or State Labour Department portal."
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "66bdb0000000000000000002"
+    },
+    "businessType": "Grocery Shop",
+    "permits": [
+      {
+        "name": "FSSAI Basic Registration",
+        "estimatedCostINR": 100,
+        "validityYears": 1,
+        "whereToApply": "Apply online via the Food Safety and Standards Authority of India portal: https://foscos.fssai.gov.in"
+      },
+      {
+        "name": "Shop and Establishment License",
+        "estimatedCostINR": 1500,
+        "validityYears": 1,
+        "whereToApply": "Apply at the local Municipal Corporation or State Labour Department portal."
+      },
+      {
+        "name": "Trade License (Municipal)",
+        "estimatedCostINR": 2000,
+        "validityYears": 1,
+        "whereToApply": "Apply at the local Municipality or Panchayat office."
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "66bdb0000000000000000003"
+    },
+    "businessType": "Street Food Cart",
+    "permits": [
+      {
+        "name": "FSSAI Basic Registration",
+        "estimatedCostINR": 100,
+        "validityYears": 1,
+        "whereToApply": "Apply online via the Food Safety and Standards Authority of India portal: https://foscos.fssai.gov.in"
+      },
+      {
+        "name": "Municipal Vendor License",
+        "estimatedCostINR": 500,
+        "validityYears": 1,
+        "whereToApply": "Apply at the local Municipality office under the Street Vendors Department."
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "66bdb0000000000000000004"
+    },
+    "businessType": "Tailoring Shop",
+    "permits": [
+      {
+        "name": "Shop and Establishment License",
+        "estimatedCostINR": 1000,
+        "validityYears": 1,
+        "whereToApply": "Apply at the local Municipal Corporation or State Labour Department portal."
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "66bdb0000000000000000005"
+    },
+    "businessType": "Small Bakery",
+    "permits": [
+      {
+        "name": "FSSAI State License",
+        "estimatedCostINR": 2000,
+        "validityYears": 5,
+        "whereToApply": "Apply online via the Food Safety and Standards Authority of India portal: https://foscos.fssai.gov.in"
+      },
+      {
+        "name": "Shop and Establishment License",
+        "estimatedCostINR": 1500,
+        "validityYears": 1,
+        "whereToApply": "Apply at the local Municipal Corporation or State Labour Department portal."
+      },
+      {
+        "name": "Fire Safety NOC",
+        "estimatedCostINR": 1000,
+        "validityYears": 3,
+        "whereToApply": "Apply at the State Fire Department office or its online portal."
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "66bdb0000000000000000006"
+    },
+    "businessType": "Barber Shop",
+    "permits": [
+      {
+        "name": "Shop and Establishment License",
+        "estimatedCostINR": 1000,
+        "validityYears": 1,
+        "whereToApply": "Apply at the local Municipal Corporation or State Labour Department portal."
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "66bdb0000000000000000007"
+    },
+    "businessType": "Small Pharmacy",
+    "permits": [
+      {
+        "name": "Shop and Establishment License",
+        "estimatedCostINR": 1000,
+        "validityYears": 1,
+        "whereToApply": "Apply at the local Municipal Corporation or State Labour Department portal."
+      },
+      {
+        "name": "Drug License",
+        "estimatedCostINR": 5000,
+        "validityYears": 5,
+        "whereToApply": "Apply at the State Drug Control Department office or its online portal."
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "66bdb0000000000000000008"
+    },
+    "businessType": "Cycle Repair Shop",
+    "permits": [
+      {
+        "name": "Shop and Establishment License",
+        "estimatedCostINR": 1000,
+        "validityYears": 1,
+        "whereToApply": "Apply at the local Municipal Corporation or State Labour Department portal."
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "66bdb0000000000000000009"
+    },
+    "businessType": "Photocopy & Stationery Shop",
+    "permits": [
+      {
+        "name": "Shop and Establishment License",
+        "estimatedCostINR": 1000,
+        "validityYears": 1,
+        "whereToApply": "Apply at the local Municipal Corporation or State Labour Department portal."
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "66bdb0000000000000000010"
+    },
+    "businessType": "Mobile Repair Shop",
+    "permits": [
+      {
+        "name": "Shop and Establishment License",
+        "estimatedCostINR": 1000,
+        "validityYears": 1,
+        "whereToApply": "Apply at the local Municipal Corporation or State Labour Department portal."
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "66bdb0000000000000000011"
+    },
+    "businessType": "Vegetable Vendor",
+    "permits": [
+      {
+        "name": "Shop and Establishment License",
+        "estimatedCostINR": 1000,
+        "validityYears": 1,
+        "whereToApply": "Apply at the local Municipal Corporation or State Labour Department portal."
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "66bdb0000000000000000012"
+    },
+    "businessType": "Fruit Seller",
+    "permits": [
+      {
+        "name": "Shop and Establishment License",
+        "estimatedCostINR": 1000,
+        "validityYears": 1,
+        "whereToApply": "Apply at the local Municipal Corporation or State Labour Department portal."
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "66bdb0000000000000000013"
+    },
+    "businessType": "Street Book Seller",
+    "permits": [
+      {
+        "name": "Shop and Establishment License",
+        "estimatedCostINR": 1000,
+        "validityYears": 1,
+        "whereToApply": "Apply at the local Municipal Corporation or State Labour Department portal."
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "66bdb0000000000000000014"
+    },
+    "businessType": "Meat Shop",
+    "permits": [
+      {
+        "name": "Shop and Establishment License",
+        "estimatedCostINR": 1000,
+        "validityYears": 1,
+        "whereToApply": "Apply at the local Municipal Corporation or State Labour Department portal."
+      },
+      {
+        "name": "FSSAI Basic Registration",
+        "estimatedCostINR": 100,
+        "validityYears": 1,
+        "whereToApply": "Apply online via the Food Safety and Standards Authority of India portal: https://foscos.fssai.gov.in"
+      },
+      {
+        "name": "Trade License (Municipal)",
+        "estimatedCostINR": 2000,
+        "validityYears": 1,
+        "whereToApply": "Apply at the local Municipality or Panchayat office."
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "66bdb0000000000000000015"
+    },
+    "businessType": "Fish Stall",
+    "permits": [
+      {
+        "name": "Shop and Establishment License",
+        "estimatedCostINR": 1000,
+        "validityYears": 1,
+        "whereToApply": "Apply at the local Municipal Corporation or State Labour Department portal."
+      },
+      {
+        "name": "FSSAI Basic Registration",
+        "estimatedCostINR": 100,
+        "validityYears": 1,
+        "whereToApply": "Apply online via the Food Safety and Standards Authority of India portal: https://foscos.fssai.gov.in"
+      },
+      {
+        "name": "Trade License (Municipal)",
+        "estimatedCostINR": 2000,
+        "validityYears": 1,
+        "whereToApply": "Apply at the local Municipality or Panchayat office."
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "66bdb0000000000000000016"
+    },
+    "businessType": "Juice Center",
+    "permits": [
+      {
+        "name": "Shop and Establishment License",
+        "estimatedCostINR": 1000,
+        "validityYears": 1,
+        "whereToApply": "Apply at the local Municipal Corporation or State Labour Department portal."
+      },
+      {
+        "name": "FSSAI Basic Registration",
+        "estimatedCostINR": 100,
+        "validityYears": 1,
+        "whereToApply": "Apply online via the Food Safety and Standards Authority of India portal: https://foscos.fssai.gov.in"
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "66bdb0000000000000000017"
+    },
+    "businessType": "Small Cafe",
+    "permits": [
+      {
+        "name": "Shop and Establishment License",
+        "estimatedCostINR": 1000,
+        "validityYears": 1,
+        "whereToApply": "Apply at the local Municipal Corporation or State Labour Department portal."
+      },
+      {
+        "name": "FSSAI State License",
+        "estimatedCostINR": 2000,
+        "validityYears": 5,
+        "whereToApply": "Apply online via the Food Safety and Standards Authority of India portal: https://foscos.fssai.gov.in"
+      },
+      {
+        "name": "Fire Safety NOC",
+        "estimatedCostINR": 1000,
+        "validityYears": 3,
+        "whereToApply": "Apply at the State Fire Department office or its online portal."
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "66bdb0000000000000000018"
+    },
+    "businessType": "Home Tiffin Service",
+    "permits": [
+      {
+        "name": "Shop and Establishment License",
+        "estimatedCostINR": 1000,
+        "validityYears": 1,
+        "whereToApply": "Apply at the local Municipal Corporation or State Labour Department portal."
+      },
+      {
+        "name": "FSSAI Basic Registration",
+        "estimatedCostINR": 100,
+        "validityYears": 1,
+        "whereToApply": "Apply online via the Food Safety and Standards Authority of India portal: https://foscos.fssai.gov.in"
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "66bdb0000000000000000019"
+    },
+    "businessType": "Sweet Shop",
+    "permits": [
+      {
+        "name": "Shop and Establishment License",
+        "estimatedCostINR": 1000,
+        "validityYears": 1,
+        "whereToApply": "Apply at the local Municipal Corporation or State Labour Department portal."
+      },
+      {
+        "name": "FSSAI Basic Registration",
+        "estimatedCostINR": 100,
+        "validityYears": 1,
+        "whereToApply": "Apply online via the Food Safety and Standards Authority of India portal: https://foscos.fssai.gov.in"
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "66bdb0000000000000000020"
+    },
+    "businessType": "Paan Shop",
+    "permits": [
+      {
+        "name": "Shop and Establishment License",
+        "estimatedCostINR": 1000,
+        "validityYears": 1,
+        "whereToApply": "Apply at the local Municipal Corporation or State Labour Department portal."
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "66bdb0000000000000000021"
+    },
+    "businessType": "Small Dairy Shop",
+    "permits": [
+      {
+        "name": "Shop and Establishment License",
+        "estimatedCostINR": 1000,
+        "validityYears": 1,
+        "whereToApply": "Apply at the local Municipal Corporation or State Labour Department portal."
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "66bdb0000000000000000022"
+    },
+    "businessType": "Flower Vendor",
+    "permits": [
+      {
+        "name": "Shop and Establishment License",
+        "estimatedCostINR": 1000,
+        "validityYears": 1,
+        "whereToApply": "Apply at the local Municipal Corporation or State Labour Department portal."
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "66bdb0000000000000000023"
+    },
+    "businessType": "Small Electronics Shop",
+    "permits": [
+      {
+        "name": "Shop and Establishment License",
+        "estimatedCostINR": 1000,
+        "validityYears": 1,
+        "whereToApply": "Apply at the local Municipal Corporation or State Labour Department portal."
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "66bdb0000000000000000024"
+    },
+    "businessType": "Watch Repair Shop",
+    "permits": [
+      {
+        "name": "Shop and Establishment License",
+        "estimatedCostINR": 1000,
+        "validityYears": 1,
+        "whereToApply": "Apply at the local Municipal Corporation or State Labour Department portal."
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "66bdb0000000000000000025"
+    },
+    "businessType": "Bangle Shop",
+    "permits": [
+      {
+        "name": "Shop and Establishment License",
+        "estimatedCostINR": 1000,
+        "validityYears": 1,
+        "whereToApply": "Apply at the local Municipal Corporation or State Labour Department portal."
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "66bdb0000000000000000026"
+    },
+    "businessType": "Handicraft Seller",
+    "permits": [
+      {
+        "name": "Shop and Establishment License",
+        "estimatedCostINR": 1000,
+        "validityYears": 1,
+        "whereToApply": "Apply at the local Municipal Corporation or State Labour Department portal."
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "66bdb0000000000000000027"
+    },
+    "businessType": "Small Hardware Store",
+    "permits": [
+      {
+        "name": "Shop and Establishment License",
+        "estimatedCostINR": 1000,
+        "validityYears": 1,
+        "whereToApply": "Apply at the local Municipal Corporation or State Labour Department portal."
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "66bdb0000000000000000028"
+    },
+    "businessType": "Toy Shop",
+    "permits": [
+      {
+        "name": "Shop and Establishment License",
+        "estimatedCostINR": 1000,
+        "validityYears": 1,
+        "whereToApply": "Apply at the local Municipal Corporation or State Labour Department portal."
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "66bdb0000000000000000029"
+    },
+    "businessType": "Pet Food Shop",
+    "permits": [
+      {
+        "name": "Shop and Establishment License",
+        "estimatedCostINR": 1000,
+        "validityYears": 1,
+        "whereToApply": "Apply at the local Municipal Corporation or State Labour Department portal."
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "66bdb0000000000000000030"
+    },
+    "businessType": "Small Printing Press",
+    "permits": [
+      {
+        "name": "Shop and Establishment License",
+        "estimatedCostINR": 1000,
+        "validityYears": 1,
+        "whereToApply": "Apply at the local Municipal Corporation or State Labour Department portal."
+      }
+    ]
+  }
+]

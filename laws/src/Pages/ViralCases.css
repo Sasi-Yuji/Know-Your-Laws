@@ -1,0 +1,127 @@
+.viral-cases-section {
+  padding: 2rem;
+  background: #f5f7fa;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.viral-heading {
+  font-size: 2.2rem;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 0.5rem;
+  color: #1a1a1a;
+}
+
+.viral-subtitle {
+  text-align: center;
+  color: #555;
+  margin-bottom: 2rem;
+  font-size: 1rem;
+}
+
+.cases-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px; 
+}
+
+.case-card {
+  background: white;
+  border-radius: 10px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+
+.case-card {
+  background: white;
+  border-radius: 10px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.case-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+.case-image {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+}
+
+.case-title {
+  font-size: 1rem;
+  font-weight: bold;
+  padding: 12px 15px 0 15px;
+  color: #004aad;
+  flex-shrink: 0;
+}
+
+.case-description {
+  font-size: 0.9rem;
+  color: #555;
+  padding: 8px 15px;
+  flex-grow: 1;
+  display: -webkit-box;
+  -webkit-line-clamp: 3; 
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.read-more-btn {
+  background: #0d6efd;
+  color: white;
+  padding: 8px 12px;
+  text-decoration: none;
+  font-size: 0.85rem;
+  border-radius: 5px;
+  margin: 10px 15px 15px;
+  display: inline-block;
+  align-self: flex-start;
+  transition: background 0.3s ease;
+}
+
+.read-more-btn:hover {
+  background: #084298;
+}
+
+.view-all-btn-container {
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.view-all-btn {
+  background: #198754;
+  color: white;
+  padding: 10px 18px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-size: 1rem;
+  transition: background 0.3s ease;
+}
+
+.view-all-btn:hover {
+  background: #146c43;
+}
+
+@media (max-width: 992px) {
+  .cases-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 600px) {
+  .cases-grid {
+    grid-template-columns: 1fr;
+  }
+}
