@@ -1,31 +1,49 @@
-import React, { useState } from 'react';
-import legalRightsData from '../data/BasicRights.json';
-import './BasicRights.css';
+import React, { useState, useEffect } from "react";
+import axios from "axios";
+import "./BasicRights.css";
 
 const BasicRights = () => {
-  const [searchTerm, setSearchTerm] = useState('');
-  const [filterTag, setFilterTag] = useState('');
+  const [rights, setRights] = useState([]);
+  const [searchTerm, setSearchTerm] = useState("");
+  const [filterTag, setFilterTag] = useState("");
   const [selectedRight, setSelectedRight] = useState(null);
 
-  const filteredRights = legalRightsData.filter((item) => {
+  useEffect(() => {
+    const fetchRights = async () => {
+      try {
+        const res = await axios.get("http://localhost:5000/api/rights");
+        setRights(res.data);
+      } catch (err) {
+        console.error("❌ Error fetching rights:", err);
+      }
+    };
+    fetchRights();
+  }, []);
+
+  const filteredRights = rights.filter((item) => {
     const matchesSearch =
       item.title.toLowerCase().includes(searchTerm.toLowerCase()) ||
       item.description.toLowerCase().includes(searchTerm.toLowerCase()) ||
-      item.tag.toLowerCase().includes(searchTerm.toLowerCase());
+      (item.tag || "").toLowerCase().includes(searchTerm.toLowerCase());
 
     const matchesFilter = filterTag ? item.tag === filterTag : true;
 
     return matchesSearch && matchesFilter;
   });
 
-  const uniqueTags = [...new Set(legalRightsData.map((item) => item.tag))];
+  const uniqueTags = [...new Set(rights.map((item) => item.tag))];
 
   return (
     <div className="rights-section">
       <div className="rights-container">
-
         <h2 className="rights-heading">Know Your Basic Legal Rights</h2>
-        <p style={{ color: '#555', marginBottom: '1.5rem', fontSize: '1.1rem' }}>
+        <p
+          style={{
+            color: "#555",
+            marginBottom: "1.5rem",
+            fontSize: "1.1rem",
+          }}
+        >
           Essential rights every citizen should know to protect themselves.
         </p>
 
@@ -54,7 +72,7 @@ const BasicRights = () => {
 
         <div className="card-grid">
           {filteredRights.map((item) => (
-            <div key={item.id} className="law-card">
+            <div key={item._id} className="law-card">
               <div className="law-title">{item.title}</div>
               <div className="law-description">{item.description}</div>
               <button
@@ -68,13 +86,19 @@ const BasicRights = () => {
         </div>
 
         {selectedRight && (
-          <div className="modal-overlay" onClick={() => setSelectedRight(null)}>
-            <div className="modal-content" onClick={(e) => e.stopPropagation()}>
+          <div
+            className="modal-overlay"
+            onClick={() => setSelectedRight(null)}
+          >
+            <div
+              className="modal-content"
+              onClick={(e) => e.stopPropagation()}
+            >
               <h3>{selectedRight.title}</h3>
               <p>{selectedRight.description}</p>
               <h4>Steps to Exercise this Right:</h4>
               <ol>
-                {selectedRight.steps.map((step, idx) => (
+                {selectedRight.steps?.map((step, idx) => (
                   <li key={idx}>{step}</li>
                 ))}
               </ol>
@@ -87,7 +111,6 @@ const BasicRights = () => {
             </div>
           </div>
         )}
-
       </div>
     </div>
   );

@@ -1,0 +1,80 @@
+.admin-container {
+  padding: 20px;
+}
+
+.content-wrapper {
+  display: flex;
+  gap: 20px;
+  align-items: flex-start;
+}
+
+.form-section {
+  flex: 1;
+  background: #fff;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+.form-section form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.form-section input,
+.form-section textarea {
+  padding: 8px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+}
+
+.btn-create {
+  background: #007bff;
+  color: white;
+  padding: 8px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.btn-create:hover {
+  background: #0056b3;
+}
+
+.table-section {
+  flex: 2;
+  background: #fff;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+.table-section table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.table-section th, .table-section td {
+  padding: 10px;
+  border: 1px solid #ddd;
+  text-align: center;
+}
+
+.btn-edit {
+  background: #ffc107;
+  border: none;
+  padding: 5px 10px;
+  margin-right: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.btn-delete {
+  background: #dc3545;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  color: white;
+}
